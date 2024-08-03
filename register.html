@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0}
+
+
+    .register-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 80px auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: lightblue;
+}
+
+.backtologin {
+    margin-top: 2%;
+    width : 10%;
+    
+}
+
+
+    </style>
+    
+</head>
+<body>
+
+    <h1>
+        <b>Welcome to Fl3xiPay</b>
+    </h1>
+
+
+    <div>
+    
+
+        <div class="register-container">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <label for="OTP">One-Time-Password:</label>
+                <input type="text" id="OTP" name="OTP" required>
+
+               <button type="submit">Register</button>
+               
+            </form>
+            <p id="errorMessage" class="error"></p>
+       </div>
+
+       <div>
+        <button class="backtologin" type="login"><a href="login.html">Back to Login</a></button>
+       </div>
+
+
+
+
+    </div>
+       
+
+    <script src="script.js"></script>
+</body>
+</html>

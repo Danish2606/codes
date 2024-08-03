@@ -1,0 +1,758 @@
+#navbar {
+
+    background-color: lightblue !important;
+    
+
+}
+
+#search-text {
+
+    border-radius: 10%;
+}
+
+
+#flexipay {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+    font-size: 6em;
+    color: grey;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+
+
+body {
+    background-color: beige;
+}
+
+#intro {
+
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#ourFeatures {
+    margin-top: 5%;
+    
+}
+
+.image1 {
+    margin-top: 2%;
+    border-radius: 10%;
+    margin-right: 2%;
+}
+
+.image2 {
+    margin-top: 2%;
+    border-radius: 10%;
+}
+
+#image-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#features-section {
+
+    background-color: lightblue;
+    padding-bottom: 5%;
+    border-top: 10%;
+}
+
+#bills-heading {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+}
+
+#table-viewbillpayment {
+    
+    margin-top: 5%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#viewingbills {
+
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#table-row1 {
+    border: 5px solid grey; 
+    border-color: black;
+    padding: 5px;
+}
+
+#table-viewbillpayment {
+    border-collapse: collapse; 
+    
+}
+
+#table-viewbillpayment td, #table-viewbillpayment th {
+    border: 5px solid grey;
+    padding: 12px; 
+}
+
+#electric-bill-header {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+
+    
+}
+
+#electrical-bill-html {
+
+    margin-left: 2%;
+}
+
+#electric-bill-h2 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+#electric-bill-h2-2 {
+
+    text-align: center;
+    margin-top: 2%;
+}
+
+#paymentmethod-container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; 
+}
+
+#paymentmethod {
+    border-collapse: collapse;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    
+}
+
+#paymentmethod th {
+    padding: 8px 12px; 
+    text-align: center; 
+}
+
+#back-to-bills-btn {
+    font-size: 12px;
+    padding: 5px 10px; 
+    border-radius: 4px; 
+}
+
+#installment-plan-header{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+}
+
+.form-container {
+    padding: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+  }
+  
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px; 
+  }
+  
+.form-label {
+    margin-right: 8px; 
+    white-space: nowrap; 
+  }
+  
+.form-control {
+    width: 150px; 
+  }
+
+#installmentmodalheader {
+
+    color:white;
+    background-color: lightblue;
+}
+
+#credit-card-payment-header {
+
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+
+
+}
+
+#form-text-box {
+
+    width: 100%
+}
+
+#E-wallet {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+
+
+}
+
+.wallet {
+
+    text-align: center;
+}
+
+#topUpForm {
+
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+#ewalletpayment-h1 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+
+
+
+}
+
+.In-Progress {
+
+    color: green;
+}
+
+#Electrical_bill_view {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+
+
+}
+
+.h1-tag {
+    
+    
+    justify-content: space-between;
+}
+
+#water-bill-header {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+
+    
+}
+
+#water-bill-html {
+
+    margin-left: 2%;
+}
+
+#water-bill-h2 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+#paymentModalLabel {
+
+    color:white;
+    background-color: lightblue;
+}
+
+#modal-id {
+
+    background-color: lightblue;
+}
+
+#modal-body-id {
+
+    background-color: beige;
+}
+
+#modal-receipt {
+    background-color: lightblue;
+    color: white;
+}
+
+#receipt-body {
+
+    background-color: beige;
+}
+
+.modal-footer {
+
+    background-color: lightblue;
+}
+
+#creditcardh2 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+
+}
+
+#power-bill-header {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+
+    
+}
+
+#power-bill-html {
+
+    margin-left: 2%;
+}
+
+#power-bill-h2 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+#power-bill-h2-2 {
+
+    text-align: center;
+}
+
+#overall-bill-history {
+
+    text-align: center;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+}
+
+.content-container {
+    text-align: center;
+}
+#chart-image {
+    max-width: 100%; 
+    height: auto;    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+   
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#e-c-button {
+    margin-right: 2%;
+}
+
+#e-w-button {
+
+    margin-left: 2%;
+
+    
+}
+
+#view-bills {
+
+    text-align: center;
+}
+
+#background-viewbills {
+
+    margin-top: 2%;
+
+    padding-bottom: 5%;
+
+    background-color: lightblue;
+}
+
+#E-B-H {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+}
+
+#W-B-H {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+}
+
+#P-B-H {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+}
+
+
+#text-eb {
+    text-align: center;
+}
+
+#text-pb {
+    text-align: center;
+}
+
+#text-wb {
+    text-align: center;
+}
+
+#electric-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center; 
+}
+
+#power-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center; 
+}
+
+#water-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center; 
+}
+
+
+
+
+#E-Info {
+
+    margin-top: 5%;
+
+    text-align: center;
+}
+
+
+#P-Info {
+
+    margin-top: 5%;
+
+    text-align: center;
+}
+
+
+#W-Info {
+
+    margin-top: 5%;
+
+    text-align: center;
+}
+
+#background-W {
+
+    margin-top: 5%;
+
+    background-color: lightblue;
+    padding-left : 100%;
+    padding-right: 100%
+}
+
+
+
+#background-E {
+
+    margin-top: 5%;
+
+    background-color: lightblue;
+    padding-left : 100%;
+    padding-right: 100%
+}
+
+#background-P {
+
+    margin-top: 5%;
+
+    background-color: lightblue;
+    padding-left : 100%;
+    padding-right: 100%
+}
+
+#id-button {
+
+    justify-content: space-between;
+}
+
+#back-to-homepage-btn {
+
+    margin-left: 72%;
+}
+
+#two-fa {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+}
+
+#two-factor-aunthentication-div {
+
+    text-align: center;
+}
+
+#two-fa-info-btn {
+
+    text-align: center;
+}
+
+#go-to-2fa-btn {
+
+    margin-top: 1%;
+}
+
+#paynow-login {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+
+
+}
+
+#loginpaynow {
+
+    text-align : center;
+}
+
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px grey;
+    
+    
+}
+
+.Form-Paynow {
+
+
+    
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#make-payment {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    color:grey;
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+
+
+}
+
+
+
+#confirm-btn {
+
+    margin-left: 47%;
+}
+
+.receipt-container {
+    max-width: 600px;
+    margin: auto;   
+    margin-top: 2%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px grey;
+    background-color: white;
+}
+
+#enteramount-id {
+   margin-left: 35%;
+}
+
+#examplepaynowinput {
+
+    margin-left: 2%;
+}
+
+#exampleueninput {
+
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#enteruen-id {
+
+    margin-left: 41%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+#paynowlogin {
+
+    margin-left: 35%;
+    padding: 2%;
+    background-color: white;
+}
+
+#id-button2 {
+
+    margin-top: 2%;
+}
+
+#id-button3 {
+
+    margin-top: 2%
+}
+
+#contact-img {
+
+    margin-top: 2%;
+}
+
+#contact-container {
+
+    display: flex;
+    flex-direction: row;
+}
+
+#contact-info {
+
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: larger;
+}
+
+#issue-reporting {
+
+    margin-bottom: 2%;
+}
+
+#contact-button {
+
+    margin-left: 50%;
+}
+
+#e-wallet-2-button {
+    
+    margin-left: 42%;
+}
+
+#receiptModalLabel2 {
+
+    background-color: lightblue;
+}
+
+#modal-header-2 {
+
+    background-color: lightblue;
+}
+
+#modal-body-2 {
+
+    background-color: beige;
+}
+
+#h1-feedback-modal {
+
+    background-color: lightblue;
+}
+
+#modal-feedback {
+
+    background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

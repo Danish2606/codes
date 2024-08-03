@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+.login {
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    
+    
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+.login-container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    
+    
+    
+}
+
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: lightblue;
+}
+
+.text {
+    text-align: center;
+}
+
+
+
+    </style>
+    
+</head>
+<body style="background-color: beige;">
+
+    <h1>
+        Welcome to Fl3xiPay
+    </h1>
+    <p class="text"><b>
+        log in to continue</b>
+    </p>
+
+  
+  
+  
+    <div class="login">
+   
+     
+     <div class="login-container">
+           <h2 class="header">Login</h2>
+          <form id="loginForm" class="flex">
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <p>Don't have an account? <a href="register.html">Sign Up</a></p>
+
+                
+                  <button type="submit"><a href="index.html">Login</a></button>
+
+                
+
+
+            </form>
+            <p id="errorMessage" class="error"></p>
+     </div>
+        <div class="login-container">
+          <h2 class="header">SingPass Login</h2>
+          <a href="index.html">
+             <img id="clickableImage" src="Screenshot 2024-07-19 150125.png">
+          </a>
+        </div>
+ </div>  
+  
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
